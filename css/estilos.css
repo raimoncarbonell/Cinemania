@@ -1,0 +1,545 @@
+ body
+            {               
+                margin:0;
+                background-size:cover;
+                background-attachment: fixed;  
+            }
+
+   header
+            {
+                background-color: brown;
+                background-image: url(../vista/imatges/degradado.jpg);
+                background-size: cover;
+                color: white;
+                height: 120px;
+                margin: 0;
+                width: 100%;               
+                position: fixed;
+            }
+ 
+ #headermanten
+{
+    background-image: url(../vista/imatges/degradado3.jpg);
+}
+
+ header h1
+            {
+                color:black;
+                text-align: center;
+                margin: 0;
+                font-size: 80px;
+            }
+
+ #contenedor
+            {
+                padding-top: 120px;
+            }
+
+  h2
+            {
+               font-size: 40px;               
+                margin: auto;
+                text-align: center;
+                background-color: rgba(240, 255, 255, 0.71);              
+            }
+h3
+{
+    color:white;
+}
+
+  table
+            {
+                padding: 20px;
+                width: 60%;
+                
+                
+            }
+
+th,td
+            {
+                width: auto;
+                font-weight: bold;
+            }
+        
+a
+            {
+                font-weight: bold;
+            }
+
+        
+table,th,td
+            {
+                border: 1px solid green;
+                text-align: center;
+                box-sizing: border-box;
+                margin: auto;
+                background-color: rgba(240, 255, 255, 0.51);
+                
+            }
+
+#tablacriticas
+{
+    width:100%;
+}
+
+.textocritica
+{
+    width:80%;
+    text-align: left;
+    padding: 3px;
+}
+ label
+            {               
+                color: black;
+                font-weight: bold;
+                background-color: rgba(240, 255, 255, 0.51);
+            }
+
+img
+
+{
+    width: 50px;
+    margin: 5px;
+}
+
+
+
+.caratula:hover
+{
+    position:absolute;
+    width: 20%;
+}
+
+#formescondido label     /* -------------------   formulario de plantilla2 para añadir crítica  ----------------  */
+            {
+                display: block;
+                color: crimson;
+                font-weight: bold; 
+            }
+
+
+                        /* -------------------   formulario del indice para entrar como administrador  ----------------  */
+ #identificador
+            {
+                font-size: 0.6em;
+                text-align: left;
+                margin-left: 20px;
+              
+            }
+
+#identificador input
+            {
+                width: 60px;
+            }
+
+#busquedapelis          /* -------------------   formularios para filtrar y ordenar  ----------------  */
+            {
+                text-align: center;
+                margin-top: 30px;
+                font-weight: bold;
+                
+            }
+
+ #nopeliculas           /* -------------------   barra de categorías en el índice  ----------------  */
+            {
+                text-align: center;
+                margin-bottom: 0;
+            }
+ul
+{
+    list-style: none;
+}
+li
+{
+    display: inline-block;
+}
+
+#cargarform
+            {
+                color:red;
+                font-weight: bold;
+                margin:5px auto;
+            }
+button
+            {
+                border: 1px solid green;
+            }
+
+#nopeliculas a
+            {
+                text-decoration: none;
+                background-color: darkgrey;
+                border: 1px solid green;
+                padding: 1px 3px;
+                font-size: 1.2em;
+            }
+
+a:hover
+            {
+                color:yellow;
+            }
+
+.notamedia
+            {
+                color: red;
+                text-align: center;
+                font-weight: bold;
+            }
+
+#home
+            {
+                width: 40px;
+                height: 40px;
+                position: relative;
+                bottom: 20px;
+                margin-left: 2%;
+            }
+ /* -------------------   css específicos de plantilla2  ----------------  */
+
+textarea                      
+            {
+                width: 99%;
+            }
+
+iframe 
+{
+    max-width:100%;
+    
+    
+}
+          
+ #info h3
+            {
+                border: 1px solid green;
+                background-color: rgba(240, 255, 255, 0.81);
+                padding: 10px;
+                font-size: 1em;
+                color: #094e0c;
+            }
+            
+           
+            
+#info h4
+            {
+                border: 1px solid green;
+                background-color: rgba(240, 255, 255, 0.81);
+                padding: 10px;
+            }
+            
+#formescondido
+            {
+                display:none;
+                float: left;  
+                text-align: left;
+                padding-left: 10px;
+                
+            }
+            
+
+            
+span
+            {
+                color:red;
+                font-weight: bold;
+            }
+
+#info
+            {
+                
+               border: 1px solid transparent;
+               width: 60%;
+                margin:auto ;
+                padding-top: 120px;
+                background-attachment: fixed;
+                background-size: cover;
+                color:#094e0c;
+               background-color: rgba(245, 245, 245, 0.69);
+                box-sizing: border-box;  
+            }
+            
+#contencarat
+            {
+                
+                width: 40%;
+                border: 10px solid blue;
+                box-sizing: border-box;
+                margin-right: 5px;
+                float: left; 
+            }
+            
+#caratula
+            {
+                width: 100%;
+                margin: 0;
+            }
+
+#formescondido
+            {
+                display:none;
+                float: left;  
+                
+            }
+
+#info table
+            {
+                padding: 20px;
+                width:100%;
+                box-sizing: border-box;
+                margin: 20px auto;
+                background-color: rgba(240, 255, 255, 0.51);
+                border: 1px solid green;    
+            }
+            
+#info h2
+            {
+               font-size: 40px; 
+                border-bottom: 2px solid red;
+               text-align: center;
+              
+            }
+           
+          
+#info  th,td
+            {
+                width: auto;
+                background-color: rgba(240, 255, 255, 0.51);
+                border: 1px solid green;
+            }
+                      
+
+
+p img
+{
+    max-width: 60%;
+}
+                            /* -------------------   css específicos de plantilla2  ----------------  */
+
+
+.bMan
+{
+    display: inline-block;
+    width: 33.3%;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+    border:2px solid #5d4f4f;
+    box-sizing: border-box;
+}
+.bMan:hover
+{
+    background-color: #0a2b76;
+}
+.bMan:hover a
+{
+    color: #2dd868;
+}
+.bMan a
+{
+    text-decoration: none;
+    
+}
+#formmodificar
+{
+    margin: 2% 10%;
+}
+#formmodificar label
+{
+   border:1px solid darkblue; 
+}
+
+
+.selectautores
+{
+    display: inline-block;
+    margin: 10px;
+}
+#filtroautores
+{
+    text-align: center;
+    font-weight: bold;
+}
+#borrarcritico
+{
+    background-color: red;
+    color:white;
+}
+
+#confirmacion
+{
+    text-align: center;
+    width: 40%;
+    border:4px solid darkblue;
+    border-radius: 20%;
+    background-color: #34f887;
+    background-image: url(../vista/imatges/cuidado.jpg);
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px;
+    border-style: groove;
+    animation-name: uno;
+    animation-duration: 1s;
+    position: relative;
+}
+.yaexiste
+{
+    
+    
+    border:4px solid darkblue;
+    border-radius: 20%;
+    color:red;
+    background-image: url(../vista/imatges/cuidado.jpg);
+    font-weight: bold;
+    margin: 2% 10%;
+    padding: 10px;
+    border-style: groove;
+    min-width: 200px;
+    text-align: center;
+    font-size: 1.5em;
+    animation-name: dos;
+    animation-duration: 6s;
+    position: relative;
+    
+    
+}
+
+@keyframes uno {
+    0%   {top:-450px;}
+    
+    100% {top:0px;}
+}
+@keyframes dos {
+    0%   {top:-850px;}
+    
+    10% {top:-450px;}
+    
+    90% {top:-450px;}
+    
+    100% {top:0px;}
+}
+
+#modificarcri
+{
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#sinsesion
+{
+    width: 40%;
+}
+#divsinsesion {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/*  --------------------------  MEDIAQUERIES ------------------------ */
+
+
+
+
+@media (max-width:770px)
+{
+  table
+    {
+        width: 80%;
+    }
+  #info 
+    {    
+        width: 80%;
+    }
+  #nopeliculas a
+    {
+        font-size: 1em;
+    }
+ .caratula:hover
+        {
+            position:absolute;
+            width: 30%;
+        }
+.bMan
+{
+    
+    font-size: 1.5em;
+    
+}
+}
+
+@media (max-width:640px)
+{
+     header h1
+            {
+                font-size: 60px;
+            }
+   
+    #home
+            {
+                bottom: 0px;
+            }
+    #identificador 
+            {
+                position: relative;
+                bottom: -25px;
+            }
+    #info
+            {
+
+               width: 100%;
+  
+            }
+    #busquedapelis 
+            {
+                font-size: 0.7em;
+            }
+    
+    #busquedapelis input
+            {
+                width:  60px;
+            }
+    
+    #busquedapelis select
+            {
+                width:  80px;
+                font-size: 0.8em;
+            }
+    table
+            {
+                width: 100%;
+            }
+    
+    .caratula:hover
+            {
+                position:absolute;
+                width: 40%;
+            }
+    .bMan
+            {
+
+                font-size: 1.2em;
+
+            }
+}
+
+@media (max-width:390px)
+{
+     header h1
+            {
+                font-size: 50px;
+            }
+    #home 
+            {
+                bottom: -15px;
+            }
+    #nopeliculas a
+    {
+        font-size: 0.8em;
+    }
+    .bMan
+    {
+
+        font-size: 1.1em;
+
+    }
+ 
+}
